@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.secret_key = 'N_82JzE4KleqPVvhdnieXUz63o241Vx46m4Uvsx00mg'  # Replace with a secure secret key
 
 # Replace with your actual Google Maps API key
-GMAPS_API_KEY = 'AIzaSyDBE9McUJQwVXX3avAGsWevb_BuwyK3368'
+GMAPS_API_KEY = ''
 gmaps = googlemaps.Client(key=GMAPS_API_KEY)
 
 # Ensure the 'static/images' directory exists
